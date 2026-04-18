@@ -55,7 +55,7 @@
         mod3 {
             display-name = "mod3";
             bindings = <
-&trans  &kp CAPSLOCK  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &trans  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &trans  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE  &kp PLUS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &trans  &trans  &mo 3  &mo 2  &trans  &trans  &trans
+&trans  &kp CAPSLOCK  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &trans  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &trans  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE  &kp PLUS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &trans  &mo 2  &mo 3  &trans  &trans  &trans  &trans
             >;
         };
 
