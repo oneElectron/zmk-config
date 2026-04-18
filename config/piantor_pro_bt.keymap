@@ -39,7 +39,7 @@
         compatible = "zmk,keymap";
 
         NeoQwerty {
-            display-name = "NeoQwerty";
+            display-name = "NQ - US";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U   |  I  |  O  |  P  | BSPC |
