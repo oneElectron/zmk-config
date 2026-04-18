@@ -39,7 +39,7 @@
         de_carrot: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NON_US_HASH &kp SPACE>;
+            bindings = <&kp NON_US_BACKSLASH &kp SPACE>;
             label = "NEW_MACRO";
         };
 
