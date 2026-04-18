@@ -53,7 +53,7 @@
         mod4 {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &kp COMMA  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
             >;
         };
 
