@@ -67,7 +67,13 @@
         nq_tick: nq_tick {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SQT &mo 1>;
+            bindings =
+                <&macro_press>,
+                <&kp SQT &mo 1>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 1 &kp SQT>;
+
             label = "NQ_TICK";
         };
     };
