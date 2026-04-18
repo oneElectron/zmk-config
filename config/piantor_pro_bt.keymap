@@ -62,41 +62,41 @@
         compatible = "zmk,keymap";
 
         NeoQwerty {
-            display-name = "NQ-US";
+            display-name = "NQ-NQ";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &tap_hold 1 ESCAPE  &kp A  &kp S  &kp D  &tap_hold_kp LEFT_CONTROL F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &tap_hold 1 ESCAPE  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
-            >;
-        };
-
-        Mod3 {
-            display-name = "mod3";
-            bindings = <
-&trans  &kp CAPSLOCK  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &kp LA(BACKSPACE)  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &trans  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE  &kp PLUS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp AT_SIGN  &mo 2  &trans  &mo 3  &mo 3  &trans  &trans
-            >;
-        };
-
-        Mod4 {
-            display-name = "mod4";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &mo 1  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
             >;
         };
 
         Control {
             display-name = "Control";
             bindings = <
-&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &none  &to 4  &to 6  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &none  &to 2  &to 6  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
-        NeoQwerty_NQ {
-            display-name = "NQ-NQ";
+        NeoQwerty_US {
+            display-name = "NQ-US";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &mo 5  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &tap_hold 3 ESCAPE  &kp A  &kp S  &kp D  &tap_hold_kp LEFT_CONTROL F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &tap_hold 3 ESCAPE  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
             >;
         };
 
-        Control_NQ {
+        Mod3_US {
+            display-name = "mod3";
+            bindings = <
+&trans  &kp CAPSLOCK  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &kp LA(BACKSPACE)  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &trans  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE  &kp PLUS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp AT_SIGN  &mo 4  &trans  &mo 5  &mo 5  &trans  &trans
+            >;
+        };
+
+        Mod4_US {
+            display-name = "mod4";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+            >;
+        };
+
+        Control_US {
             display-name = "Control";
             bindings = <
 &kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &none  &to 6  &none  &none  &none  &none  &none  &none  &none  &none  &none
@@ -127,7 +127,7 @@
         Control_DE {
             display-name = "Control";
             bindings = <
-&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &to 4  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &to 2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
