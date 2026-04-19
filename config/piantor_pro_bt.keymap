@@ -86,7 +86,8 @@
         de_carrot_win: de_carrot_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp SPACE>;
+            bindings = <&kp GRAVE &kp SPACE>, <&macro_press>;
+
             label = "DE_CARROT_WIN";
         };
     };
@@ -111,7 +112,7 @@
         mod4 {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LA(N)  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(G)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &trans
             >;
         };
 
