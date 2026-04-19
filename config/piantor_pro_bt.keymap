@@ -82,6 +82,13 @@
 
             label = "NQ_TICK";
         };
+
+        de_carrot_win: de_carrot_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp SPACE>;
+            label = "DE_CARROT_WIN";
+        };
     };
 
     keymap {
@@ -111,7 +118,7 @@
         Control {
             display-name = "Control";
             bindings = <
-&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &none  &to 4  &to 8  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &none  &to 4  &to 8  &to 12  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -139,12 +146,12 @@
         Control_US {
             display-name = "Control";
             bindings = <
-&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &none  &to 8  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &none  &to 8  &to 12  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         NeoQwerty_DE {
-            display-name = "NQ-DE";
+            display-name = "NQ-DE";
             bindings = <
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Z  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &tap_hold 9 ESCAPE  &kp A  &kp S  &kp D  &tap_hold_kp LEFT_CONTROL F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &tap_hold 9 ESCAPE  &kp LSHFT  &kp Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
             >;
@@ -167,7 +174,35 @@
         Control_DE {
             display-name = "Control";
             bindings = <
-&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &to 4  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &to 4  &none  &to 12  &none  &none  &none  &none  &none  &none  &none  &none
+            >;
+        };
+
+        NeoQwerty_DE_WIN {
+            display-name = "NQ-DE⊞";
+            bindings = <
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Z  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &tap_hold 13 ESCAPE  &kp A  &kp S  &kp D  &tap_hold_kp LEFT_CONTROL F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &tap_hold 13 ESCAPE  &kp LSHFT  &kp Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND  &kp RIGHT_CONTROL  &kp SPACE  &kp ENTER
+            >;
+        };
+
+        Mod3_DE_WIN {
+            display-name = "mod3";
+            bindings = <
+&trans  &kp CAPSLOCK  &kp LS(SLASH)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &de_carrot_win  &kp LS(NUMBER_1)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_0)  &kp LS(NUMBER_6)  &kp LA(BACKSPACE)  &trans  &kp LS(LA(NUMBER_7))  &kp LS(NUMBER_7)  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)  &kp SLASH  &kp LS(PERIOD)  &trans  &trans  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)  &kp LA(NUMBER_7)  &de_tilde  &de_backtick  &kp RIGHT_BRACKET  &kp LS(NUMBER_5)  &kp RS(NUMBER_2)  &kp LS(BACKSLASH)  &kp LS(COMMA)  &kp RA(Q)  &mo 10  &trans  &mo 11  &mo 11  &trans  &trans
+            >;
+        };
+
+        Mod4_DE_WIN {
+            display-name = "mod4";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(NUMBER_7)  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &kp KP_NUMLOCK
+            >;
+        };
+
+        Control_DE_WIN {
+            display-name = "Control";
+            bindings = <
+&kp TAB  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BSPC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &to 0  &to 4  &to 8  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
