@@ -188,7 +188,7 @@
         Mod3_DE_WIN {
             display-name = "mod3";
             bindings = <
-&trans  &kp CAPSLOCK  &kp LS(SLASH)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &de_carrot_win  &kp LS(NUMBER_1)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_0)  &kp LS(NUMBER_6)  &kp LA(BACKSPACE)  &trans  &kp LS(LA(NUMBER_7))  &kp LS(NUMBER_7)  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)  &kp SLASH  &kp LS(PERIOD)  &trans  &trans  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)  &kp LA(NUMBER_7)  &de_tilde  &de_backtick  &kp RIGHT_BRACKET  &kp LS(NUMBER_5)  &kp RS(NUMBER_2)  &kp LS(BACKSLASH)  &kp LS(COMMA)  &kp RA(Q)  &mo 10  &trans  &mo 11  &mo 11  &trans  &trans
+&trans  &kp CAPSLOCK  &kp LS(SLASH)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &de_carrot_win  &kp LS(NUMBER_1)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_0)  &kp LS(NUMBER_6)  &kp LA(BACKSPACE)  &trans  &kp LS(LA(NUMBER_7))  &kp LS(NUMBER_7)  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)  &kp LS(N8)  &kp LS(N9)  &kp SLASH  &kp LS(PERIOD)  &trans  &trans  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)  &kp LA(NUMBER_7)  &de_tilde  &de_backtick  &kp RIGHT_BRACKET  &kp LS(NUMBER_5)  &kp RS(NUMBER_2)  &kp LS(BACKSLASH)  &kp LS(COMMA)  &kp RA(Q)  &mo 14  &trans  &mo 15  &mo 15  &trans  &trans
             >;
         };
 
