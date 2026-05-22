@@ -140,7 +140,7 @@
         Mod3_US {
             display-name = "mod3";
             bindings = <
-&kp CAPS  &kp LS(APOS)  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &dead_key CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &kp LA(BACKSPACE)  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &kp RA(S)  &kp HASH  &kp DOLLAR  &kp PIPE  &dead_key TILDE  &dead_key GRAVE  &kp PLUS  &kp PERCENT  &dead_key DOUBLE_QUOTES  &dead_key SINGLE_QUOTE  &kp SEMICOLON  &kp AT_SIGN  &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPS  &trans  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp AMPERSAND  &kp LA(BACKSPACE)  &trans  &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ASTERISK  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON  &trans  &kp RA(S)  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE  &kp PLUS  &kp PERCENT  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp AT_SIGN  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
