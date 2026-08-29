@@ -119,7 +119,7 @@
         mod4 {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LA(N)  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(G)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &kp SPACE  &kp NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LA(N)  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(G)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp KP_NUMLOCK  &trans  &trans  &trans  &kp SPACE  &kp NUMBER_0  &trans
             >;
         };
 
@@ -147,7 +147,7 @@
         Mod4_US {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
             >;
         };
 
@@ -175,7 +175,7 @@
         Mod4_BEX {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
             >;
         };
 
@@ -203,7 +203,7 @@
         Mod4_DE {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(NUMBER_7)  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(NUMBER_7)  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &trans
             >;
         };
 
@@ -231,7 +231,7 @@
         Mod4_DE_WIN {
             display-name = "mod4";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(NUMBER_7)  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &kp KP_NUMLOCK
+&trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &kp LA(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(NUMBER_7)  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &kp KP_NUMLOCK
             >;
         };
 
